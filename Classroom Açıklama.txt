@@ -1,0 +1,33 @@
+Proje Detaylarý
+Merhabalar,
+
+Projenin son teslim tarihi 1 Haziran 2016'dýr. Projeden alacaðýnýz notun henüz belirlenmemiþ bir yüzdesi final notunuza doðrudan eklenecektir. Her türlü sorunuz için benimle okulda görüþebilir veya "mertkanalacahan@gmail.com" adresine mail atabilirsiniz.
+
+Proje teslimi bu gönderi üzerinden yapýlacaktýr. Proje teslimini herkes tekli þekilde yapacak, grup halinde teslim kabul edilmeyecektir. Ýnternet aracýlýðýyla veya kendi aranýzda bilgi alýþveriþinde bulunmanýzda bir sakýnca yoktur, ancak bire bir kopya tespiti durumunda iki taraf da (internet üzerinden kopya durumunda tek taraf) sýfýr alacaktýr. Deðiþken isimleri deðiþtirmeniz, for döngüsünü while þeklinde yazmanýz gibi giriþimler iþe yaramayacaktýr; zira bu benzerlikleri tespit edebilen yazýlýmlar mevcuttur. Son olarak projeden not alabilmek için projenizi tamamladýktan sonra kodunuzu, karþýlaþtýðýnýz problemleri ve bunlarý nasýl çözdüðünüzü bana kýsaca anlatmanýz gerekecek. Bunu yapmadýðýnýz takdirde kodunuz hatasýz çalýþsa bile not alamayacaksýnýz. Beni donaným laboratuvarýnda bulabilirsiniz. 
+
+Projenin tamamlanmýþ örnek bir .exe dosyasýný ekte bulabilirsiniz. Detaylar:
+
+Konsol üzerinden çalýþan bir quiz uygulamasý geliþtireceksiniz. Form kullanan projeler kabul edilmeyecektir. En az 10-20 arasý sayýda (isteðe baðlý olarak daha fazla) sorudan oluþan bir soru havuzunuz olacak. Bunu gerçekleþtirmek için Soru isminde bir sýnýf oluþturmanýzý tavsiye ediyorum. Bu sýnýf içerisinde soru metnini(string), sorunun cevap þýklarýný(string dizisi), ve sorunun doðru cevabýnýn, cevap þýkký dizisinin kaçýncý elemanýnda olduðunu tutan bir deðiþkeni(int) bulundurmanýz faydalý olur. Soru sýnýfýna bir örnek:
+
+class Soru{
+public string soruMetni;
+public string[] cevaplar;
+public int dogruCevap;
+
+public Soru(){
+cevaplar = new string[4];
+}
+}
+
+Soru havuzunuz "Soru" tipinde, soru havuzunuz kaç sorudan oluþacaksa o kadar boyutta bir diziden ibaret olacak. Main metodunun ilk satýrlarýnda bu diziyi oluþturmanýz size kolaylýk saðlayacaktýr (10 sayýsý örnektir, daha fazla soru olabilir):
+
+Soru[] sorular = new Soru[10];
+
+for (int i = 0; i < 10; i++)
+sorular[i] = new Soru();
+
+Bu aþamadan sonra soru metinlerini, cevap þýklarýný ve doðru þýkkýn kaçýncý elemanda tutulduðunu doldurma kýsmý size kalmýþtýr. Bu iki kod parçasý tamamen tavsiye niteliðindedir; projenizin temeli için daha farklý çözüm yöntemleri kullanmakta tamamen serbestsiniz. Uygulamada öncelikle kullanýcýya quizin kaç sorudan oluþacaðýný ve her sorunun kaç puan (0-100) olacaðýný sorunuz. Girilen soru sayýsý deðerinin soru havuzu boyutunuzu aþmadýðýna ve negatif bir sayý olmadýðýna, puan deðerinin de 0 ile 100 arasýnda olduðuna emin olunuz (Girilen deðerin karakter mi sayý mý olduðunu kontrol etmenize gerek yoktur, sayý girildiðini varsayýnýz). Bunu saðlamak için havuzunuzun kaç soru içerdiðini kullanýcýya bildirmeniz faydalý olacaktýr. Alýnan veriler doðrultusunda istenilen sayýda soruyu kullanýcýya sýra ile sormanýz beklenmektedir. Burada önemli olan nokta, uygulamayý her çalýþtýrdýðýnýzda sorularýn RASTGELE bir þekilde sorulmasý gerekmektedir. Ýlk çalýþtýrmada 10 soru sorulmasýný istedikten sonra uygulamayý tekrar çalýþtýrdýðýmda ve tekrar 10 soru sorulmasýný istediðimde, sorulan sorular AYNI SIRADA OLMAMALIDIR.
+
+Kullanýcýnýn sorulara A,B,C veya D þeklinde cevap vereceðini varsayýnýz. Bu dört cevaptan herhangi baþka bir cevap girildiðinde kullanýcýyý uyarýp tekrar cevap vermesini isteyiniz. Doðru cevap verildiði takdirde kullanýcýyý tebrik edip bir sonraki soruya geçebilirsiniz. Yanlýþ cevap durumunda cevabýn yanlýþ olduðunu kullanýcýya bildirip, doðru cevabýn ne olduðunu da (sadece hangi þýk olduðu deðil, cevabýn içeriðini de) ekrana yazdýrýp bir sonraki soruya geçiniz. Quiz sonunda alýnan puaný, doðru ve yanlýþ cevap sayýlarýný ekrana yazdýrmanýz ve programý sonlandýrmanýz gerekir.
+
+Derslerinizde baþarýlar dilerim, kolay gelsin.
