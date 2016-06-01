@@ -4,3 +4,9 @@ C:\Users\Samsung\Documents\GitHub\Proje-Quiz\Proje Quiz Uygulamasi\Proje Quiz Uy
 C:\Users\Samsung\Documents\GitHub\Proje-Quiz\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\obj\Debug\Proje Quiz Uygulamasi.csprojResolveAssemblyReference.cache
 C:\Users\Samsung\Documents\GitHub\Proje-Quiz\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\obj\Debug\Proje Quiz Uygulamasi.exe
 C:\Users\Samsung\Documents\GitHub\Proje-Quiz\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\obj\Debug\Proje Quiz Uygulamasi.pdb
+C:\Users\Samsung\Documents\GitHub\Proje-Quiz-Uygulamasi\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\bin\Debug\Proje Quiz Uygulamasi.exe.config
+C:\Users\Samsung\Documents\GitHub\Proje-Quiz-Uygulamasi\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\obj\Debug\Proje Quiz Uygulamasi.exe
+C:\Users\Samsung\Documents\GitHub\Proje-Quiz-Uygulamasi\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\obj\Debug\Proje Quiz Uygulamasi.pdb
+C:\Users\Samsung\Documents\GitHub\Proje-Quiz-Uygulamasi\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\bin\Debug\Proje Quiz Uygulamasi.exe
+C:\Users\Samsung\Documents\GitHub\Proje-Quiz-Uygulamasi\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\bin\Debug\Proje Quiz Uygulamasi.pdb
+C:\Users\Samsung\Documents\GitHub\Proje-Quiz-Uygulamasi\Proje Quiz Uygulamasi\Proje Quiz Uygulamasi\obj\Debug\Proje Quiz Uygulamasi.csprojResolveAssemblyReference.cache

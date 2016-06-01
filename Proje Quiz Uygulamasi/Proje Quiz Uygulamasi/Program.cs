@@ -89,7 +89,7 @@ public class Program
     private static int ConvertToNumber(string harfCevap)
     {
         int result = -1;
-        if (!string.IsNullOrWhiteSpace(harfCevap)) // https://msdn.microsoft.com/tr-tr/library/system.string.isnullorwhitespace(v=vs.110).aspx
+        if (!string.IsNullOrWhiteSpace(harfCevap))
         {
             harfCevap = harfCevap.ToUpper();
             switch (harfCevap)
@@ -149,7 +149,7 @@ public class Program
         Console.WriteLine("Doğru sayınız : " + rightAnswerCount);
         Console.WriteLine("Yanlış sayınız: " + wrongAnswerCount);
         Console.WriteLine("\n Testimize katıldığınız için teşekkürler! ^^");
-        Console.WriteLine("Çıkmak için herhangi bir tuşa basınız.");
+        Console.WriteLine("Çıkmak için ENTER'a basınız.");
     }
 
     private static void FillData(List<Question> questions)
